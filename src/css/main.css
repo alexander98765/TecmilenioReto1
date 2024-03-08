@@ -1,0 +1,735 @@
+/* Estilo personalizado para navbar*/
+.navbar{
+    padding: 1rem;
+    background-color: #f5f6f7;;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-nav .nav-link:hover{
+    color:#4d3269;
+    font-weight: bold;
+}
+
+.navbar-nav a.active { 
+    color: #4d3269; 
+    font-weight: bold;
+}
+
+.navbar{
+    --bs-navbar-active-color: #4d3269;
+}
+
+.brandTitle{
+    font-size:45px;
+    color:#4d3269;
+    font-weight:bold;
+}
+
+.brandSubTitleContainer{
+    font-weight: bold;
+}
+
+.brandSubTitleContainer span{
+    color:#1B336E;
+    font-size:25px;
+}
+
+@media screen and (max-width: 1020px) {
+    .brandTitle{
+        font-size: 40px;
+    }
+    .brandSubTitleContainer span{
+        font-size: 20px;
+    }
+}
+/*******************************/
+
+/* Estilos para la sección banner */
+.bannerBackground{
+    background-image: linear-gradient(176deg, #4d3269 72%, #F4F4F4 calc(72% + 2px));
+}
+
+#contenedorBanner{
+    color:#FFF;
+    padding:40px;
+    /*height: 400px;*/
+}
+
+.bannerTitle{
+    font-size: 30px;
+    font-weight:bold;
+    padding-bottom: 15px;
+}
+
+.bannerSubTitle{
+    font-size: 20px;
+}
+
+.bannerPicture{
+    width:400px;   
+}
+
+.bannerButton{
+    background-color: #f08e00;
+    color:#FFF;
+    font-weight: bold;
+    border: 2px solid #D6B440;
+    margin-bottom: 5px;
+}
+
+.bannerButton:hover{
+    background-color: transparent;
+    color:#D6B440;
+    font-weight: bold;
+    border: 2px solid #D6B440;
+}
+
+.bannerButtonsSeparation{
+    margin-top:30px
+}
+
+.bannerIcon{
+    color:#f08e00;
+}
+
+.bannerDiscountTag{
+    padding:9px;
+    font-size:15px;
+    background-color:#007EC6;
+    font-weight:normal
+}
+
+.bannerDiscountTag span{
+    font-size:0.8rem;
+}
+
+@media screen and (max-width: 570px) {
+    .bannerPicture{
+        width:290px;
+    }
+}
+@media screen and (min-width: 571px) and (max-width: 789px) {
+    .bannerPicture{
+        width:290px;
+    }
+}
+@media screen and (min-width: 780px) and (max-width: 1200px) {
+    .bannerPicture{
+        width:380px;    
+    }
+}
+
+@media screen and (max-width: 579px) {
+    .bannerBackground{
+        background-image: linear-gradient(176deg, #4d3269 94%, #F4F4F4 calc(94% + 2px));
+    }
+}
+@media screen and (min-width: 580px) and (max-width: 759px) {
+    .bannerBackground{
+        background-image: linear-gradient(176deg, #4d3269 92%, #F4F4F4 calc(92% + 2px));
+    }
+}
+@media screen and (min-width: 760px) and (max-width: 989px) {
+    .bannerBackground{
+        background-image: linear-gradient(176deg, #4d3269 90%, #F4F4F4 calc(90% + 2px));
+    }
+}
+@media screen and (min-width: 990px) and (max-width: 1199px) {
+    .bannerBackground{
+        background-image: linear-gradient(176deg, #4d3269 87%, #F4F4F4 calc(87% + 2px));
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1499px) {
+    .bannerBackground{
+        background-image: linear-gradient(176deg, #4d3269 83%, #F4F4F4 calc(83% + 2px));
+    }
+}
+@media screen and (min-width: 1500px) and (max-width: 1700px) {
+    .bannerBackground{
+        background-image: linear-gradient(176deg, #4d3269 80%, #F4F4F4 calc(80% + 2px));
+    }
+}
+
+
+/*******************************/
+
+/*Estilos para seccion sobre mi*/
+
+.aboutmeBackground{    
+    background-color: #4d3269;
+}
+
+#contenedorSobreMi{    
+    color: #FFF;
+    padding:20px;
+    margin-bottom: 6rem;
+    border-radius: 15px;
+}
+
+.aboutmeTitle{
+    color: #FFF;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.aboutmePicture{
+    width:260px;
+    border-radius: 50%;
+    border: 3px solid #7672D1;
+}
+
+.aboutmeButton {
+    border-radius: 20px;    
+    color: #4d3269;
+    font-weight: bold;
+    border: 2px solid #4d3269;
+}
+
+.aboutmeButton:hover{
+    font-weight: bold;
+    color:#FFFFFF;
+    background-color: #4d3269;
+}
+
+.aboutmeIcon{    
+    color:#F1D419;
+    font-weight: bold;;
+}
+
+@media screen and (min-width: 775px) and (max-width: 1150px) {
+    .aboutmePicture{
+        width:190px;
+    }
+}
+@media screen and (max-width: 774px) {
+    .aboutmePicture{
+        width:170px;
+    }
+}
+
+/*******************************/
+
+/* Estilos para la sección Proyectos*/
+
+.proyectoSep{
+    margin-top: 20px;
+}
+
+.pIconEco{
+    color: #178B07;
+    font-size: 50px;
+}
+.pIconBuil{
+    color: #2A679D;
+    font-size: 50px;
+}
+.pIconTeac{
+    color: #D04205;
+    font-size: 50px;
+}
+
+#contenedorProyectos{
+    padding:10px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 100%;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /*3d effect*/
+}
+  
+/* Posicionar el frente y parte trasera */
+.flip-card-inner {
+position: relative;
+width: 100%;
+height: 100%;
+text-align: center;
+transition: transform 0.8s;
+transform-style: preserve-3d;
+}
+  
+/* Hacer el giro de la tarjeta */
+.flip-card:hover .flip-card-inner {
+transform: rotateY(180deg);
+}
+  
+/* Posicionar el frente y parte trasera */
+.flip-card-front, .flip-card-back {
+position: absolute;
+width: 100%;
+height: 100%;
+-webkit-backface-visibility: hidden; /* Safari */
+backface-visibility: hidden;
+}
+  
+/* Estilos de frente si no hay imagen */
+.flip-card-front {
+background-color: transparent;
+color: black;
+}
+  
+/* Estilos de la parte trasera */
+.flip-card-back {
+background-color: transparent;
+/*color: white;*/
+text-align:justify;
+transform: rotateY(180deg);
+}
+
+.cardContainer2
+
+.cardContainer:hover{
+    /*width: 18rem;*/
+    border: 2px solid #00AEC6;
+}
+
+.cardContainer2:hover{
+    /*width: 18rem;*/
+    border: 2px solid #d7c3df;
+}
+
+.cardContainer3:hover{
+    /*width: 18rem;*/
+    border: 2px solid #52bef2;
+}
+
+.cardContainer4:hover{
+    /*width: 18rem;*/
+    border: 2px solid #274351;
+}
+
+.projectButtonContainer{
+    width:100%;
+}
+/*******************************/
+
+
+/* Estilos para la sección testimonios */
+.testimonios{
+    padding: 8px 8px 8px 8px;
+    /*background-color: #F3F3F3;*/
+}
+
+.carousel {
+    margin: 0 auto;
+  }
+
+.carousel-item .container{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonioImage{
+    height: 120px;
+    width:150px;
+    margin: 10px 10px 20px 10px;
+    margin-top:-5rem;
+}
+
+.testimonioTextWrapper{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonyText{    
+    width:75%;
+    margin:0 auto;
+}
+
+.testimonioInfo{
+    font-weight: bold;
+    text-align: center;
+}
+
+.testimonioInfo p{
+    margin-bottom: 0;
+}
+
+.testimonioName{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.testimonioRol{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 800px){
+    .testimonioImage{
+        height: 120px;
+        width:120px;
+    }
+    
+    .testimonioText{
+        font-size: 18px;
+    }
+}
+
+.testimonioPicture{
+    width:120px;
+    border-radius: 50%;
+    border: 3px solid #4d3269;
+}
+
+.testimonio1Picture{
+    width:150px;
+    border-radius: 50%;
+    border: 3px solid #178B07;
+}
+
+.testimonio2Picture{
+    width:150px;
+    border-radius: 50%;
+    border: 3px solid #2A679D;
+}
+
+.testimonioCardContainer{
+    background-color:#E6E8F5;
+    width:100%;
+    height:400px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    bottom:0;
+    margin:0 auto;
+}
+
+.testimonioCard{
+    background-color: #4d3269;
+    color:#FFF;
+    height:75%;
+    border-radius: 34px 34px 0px 0px;
+}
+
+.testimonioQuoteIcon{
+    font-size:30px;
+}
+
+.testimoniosHeader{
+    height:50%;
+}
+/*******************************/
+
+/* Estilos para sección de curso */
+
+#contenedorCursos{
+    padding:15px;
+}
+
+.ratingStar{
+    color:orange;
+}
+
+.coursesPrices{
+    border: 1px solid #dfdfdf;
+    margin-bottom: 10px;
+}
+
+.pricingHeader{
+    font-weight: bold;
+    background-color: #4d3269;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 10px;
+    font-size: 21px;
+    color:#FFF;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.coursePrice{
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.lastPrice{
+    font-weight:bold;
+    text-decoration: line-through;
+    color:#858585;
+}
+
+.courseCharacteristicIcon{
+    color:#f08e00;
+}
+
+.temporal{
+    font-size: 11px;
+}
+.princingFooter{
+    padding:10px;
+}
+
+.pricingContactMe{
+    border-radius: 10px;    
+    color: #7672D1;
+    font-weight: bold;
+    border: 2px solid #7672D1;
+}
+
+.courseAdv{
+    list-style-type: none
+}
+
+.courseDetailTitle{
+    font-weight:bold;
+}
+
+.courseDetailsListOrientado i{
+    color: #198754;
+}
+
+.courseDetailsListReq i{
+    color: #00A2FF;
+}
+
+.cursoModuloTitle{
+    font-weight: bold;
+}
+
+.moduloDetalle li i{
+    font-size: 20px;
+}
+
+.opinionsLink{
+    font-weight:bold;
+    color:#0087FF;
+}
+.opinionsLink:hover{
+    color:#005CAC;
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*********************************/
+
+/* Estilos para la seccion de plantillas*/
+
+#contenedorPlantillas {    
+    padding:15px;
+}
+/*********************************/
+
+/* Estilos para la sección contacto */
+
+.contacto{
+    background-color: #4d3269;
+}
+
+.contacto .container{
+    max-width: 1100px;
+    min-height: 200px;
+    padding:20px;
+}
+
+.contacto .overflowContactSection{
+    margin-top:-5rem;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    border: 1px solid #DADADA;
+}
+
+.btnContacto{
+    border-radius: 15px;
+    color: #4d3269;
+    font-weight: bold;
+    border: 2px solid #4d3269;
+    margin-top:10px;
+}
+
+.btnContacto:hover{
+    font-weight: bold;
+    color:#FFFFFF;
+    background-color: #4d3269;
+}
+
+.contactFormLabel{
+    color:#4d3269;
+    font-weight:bold;
+}
+
+.btnPlantilla::after {
+    content: "$150";
+}
+.btnPlantilla:hover::after {
+    content: "Contáctame";
+}
+.btnPlantilla1::after {
+    content: "$499";
+}
+.btnPlantilla1:hover::after {
+    content: "Contáctame";
+}
+/*********************************/
+
+/*Estilos para la sección de footer*/
+footer{
+    background-color: #4d3269;
+    color: #FFFFFF;
+}
+
+.snIcons{    
+    width: 80;
+}
+
+.snIcons a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 2px;
+
+}
+
+.footerText{
+    font-size: 15px;
+    padding-top: 15px;
+    margin-bottom: 5px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.copyRightText{
+    font-size:10px;
+    padding:20px;
+}
+/*********************************/
+
+/* Estilos generales*/
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.titulo1{
+    color:#7672D1;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.titulo2{
+    font-size:24px; 
+    color:#4d3269;
+    font-weight:bold;
+}
+
+.titulo2Outline{
+    font-size:24px; 
+    color:#FFF;
+    font-weight:bold;
+}
+
+.titulo3{
+    font-size:22px; 
+    color:#071a46;
+    font-weight:bold;
+}
+
+.titulo4{
+    font-size:20px; 
+    color:#4d3269;
+}
+
+.pageTitle{
+    font-weight: bold;
+    font-size: 2vw;
+    color: #1c244b;
+}
+
+.justifyText{
+    text-align: justify;
+}
+
+.rowSeparationSm{
+    margin-top:10px;
+}
+
+.componentSep5{
+    margin-top: 5px;
+}
+
+.btnOutlineGeneral{
+    border-radius: 10px;
+    color: #4d3269;
+    font-weight: bold;
+    border: 2px solid #4d3269;
+    margin-top:10px;
+}
+
+.btnOutlineGeneral:hover{
+    font-weight: bold;
+    color:#FFFFFF;
+    background-color: #4d3269;
+}
+
+.btnGeneral{
+    border-radius: 10px;
+    color: #FFF;
+    font-weight: bold;
+    border: 2px solid #4d3269;
+    margin-top:10px;
+    background-color: #4d3269;
+}
+
+.btnGeneral:hover{
+    font-weight: bold;
+    color:#4d3269;
+    border:2px solid #4d3269;
+}
+
+.socialNetworksIcons a{
+    width: 50px;
+    height: 50px;
+    color: #FFF;
+    font-size:17px;
+    padding:2px;
+    margin:10px;
+    border:1px solid #FFF;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+    text-decoration: none;
+}
+
+.socialNetworksIcons a:hover{
+    border: 1px solid #7672D1;
+}
+
+.socialNetworksIcons i{
+    color: #FFF;
+    transition: all 0.2s ease-in;
+}
+
+.socialNetworksIcons i:hover{
+    color:#7672D1;
+}
+
+.snIcon{
+    width: 50px;
+    height: 50px;
+    color: #FFF;
+    font-size:17px;
+    padding:2px;
+    margin:10px;
+    border:1px solid #FFF;
+    border-radius: 50%;
+}
+
+.floatLeft{
+    float:left;
+}
+
+.noPadding{
+    padding:0;
+}
+
+.courseDetailsListOrientado, .courseDetailsListReq, .contactInfoList, .aboutmeList, .bannerList{
+    list-style-type: none;
+}
+/*******************************/
