@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TecmilenioReto1/static/css/main.0e766e41.css",
-    "main.js": "/TecmilenioReto1/static/js/main.5a1e04af.js",
+    "main.css": "/TecmilenioReto1/static/css/main.17d765fd.css",
+    "main.js": "/TecmilenioReto1/static/js/main.88299577.js",
     "static/js/453.3183621d.chunk.js": "/TecmilenioReto1/static/js/453.3183621d.chunk.js",
     "static/media/aboutme.svg": "/TecmilenioReto1/static/media/aboutme.1bfbabbced38368a6feddb2c16b32459.svg",
     "static/media/project4.svg": "/TecmilenioReto1/static/media/project4.362361c0647c173e639ca90f209bdc8a.svg",
@@ -10,13 +10,16 @@
     "static/media/cliente1.svg": "/TecmilenioReto1/static/media/cliente1.4f87997127cf2e6493e102135552f087.svg",
     "static/media/project1.svg": "/TecmilenioReto1/static/media/project1.2bd5907439d6ecbf8294186a8cd7d72e.svg",
     "static/media/project2.svg": "/TecmilenioReto1/static/media/project2.8cfe12040f9fcf4726f12316c3051a55.svg",
+    "static/media/project2Detail.svg": "/TecmilenioReto1/static/media/project2Detail.cdf1e9c7dda94fa8aa057370c76a091a.svg",
+    "static/media/project1Detail.svg": "/TecmilenioReto1/static/media/project1Detail.3f0afba63d8b4d1891aa309d6d9cb8ad.svg",
+    "static/media/project3Detail.svg": "/TecmilenioReto1/static/media/project3Detail.be8e5e53072a12517f23eb7125a91a40.svg",
     "index.html": "/TecmilenioReto1/index.html",
-    "main.0e766e41.css.map": "/TecmilenioReto1/static/css/main.0e766e41.css.map",
-    "main.5a1e04af.js.map": "/TecmilenioReto1/static/js/main.5a1e04af.js.map",
+    "main.17d765fd.css.map": "/TecmilenioReto1/static/css/main.17d765fd.css.map",
+    "main.88299577.js.map": "/TecmilenioReto1/static/js/main.88299577.js.map",
     "453.3183621d.chunk.js.map": "/TecmilenioReto1/static/js/453.3183621d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e766e41.css",
-    "static/js/main.5a1e04af.js"
+    "static/css/main.17d765fd.css",
+    "static/js/main.88299577.js"
   ]
 }
