@@ -1,6 +1,10 @@
-import React from 'react';
-import bannerImage from "../../images/banner1.svg";
+//@fileoverview Component that generates the applications main banner
 
+import React from 'react';
+import bannerImage from "../../images/banner.svg";
+
+//Function that creates and returns the applications main banner.
+//@return Main Banner UI in html format
 const Banner = () => {
   return (
         <div>
@@ -11,23 +15,32 @@ const Banner = () => {
                         <div className="col-md-12 text-center my-auto">
                         <div className="bannerTitle">¿Quieres aprender sobre finanzas?</div>
                         <p className="bannerSubTitle">
-                            Sigue por redes sociales mis consejos o aún mejor, obten a través de mis cursos todo el contenido para que manejes tus finanzas como un experto
+                            Sigue por redes sociales mis consejos financieros o aún mejor, obten a través de mis cursos todo el contenido para que manejes tus finanzas como un experto
                         </p>
-                        <p>
+                        <div>
                             <ul className="bannerList">
-                            <li><i className="fa-regular fa-circle-check bannerIcon"></i> Aprende sobre finanzas para emprendedores.</li>
-                            <li><i className="fa-regular fa-circle-check bannerIcon"></i> Aprende sobre finanzas personales...</li>                  
+                            <li><i className="fa-solid fa-dollar-sign bannerIcon"></i> Aprende sobre finanzas para emprendedores.</li>
+                            <li><i className="fa-solid fa-dollar-sign bannerIcon"></i> Aprende sobre finanzas personales.</li>                  
                             </ul>
-                        </p>
+                        </div>
                         <div>                
-                            <span className="badge bannerDiscountTag"><strong>¡20% de descuento en todos los cursos!</strong> <br/>
-                            <span>Por tiempo limitado</span>
-                            </span>
+                            <div className="badge bannerDiscountTag">
+                                <div className='row'>
+                                    <div className='col-md-12'>
+                                    <strong><div className='bannerDiscountValue'>20%</div> <span>¡descuento en todos los cursos! </span></strong> <br/>
+                                    </div>
+                                </div>
+                                <div className='row'>
+                                    <div className='col-md-12'>
+                                        <div className='limitedLabel'>Por tiempo limitado</div>
+                                    </div>
+                                </div>                                                                
+                            </div>
                         </div>
 
                         <p className="bannerButtonsSeparation">
-                            <a href="#" className="btn bannerButton">Ver información de los cursos <i className="fa-solid fa-circle-info"></i></a>
-                            <a href="#" className="btn bannerButton">Quiero que me contacten <i className="fa-regular fa-address-card"></i></a>
+                            <a href="#contenedorCursos" className="btn bannerButton">Ver información de los cursos <i className="fa-solid fa-circle-info"></i></a>
+                            <a href="#contactContainer" className="btn bannerButton">Quiero que me contacten <i className="fa-regular fa-address-card"></i></a>
                         </p>
                         </div>            
                     </div>

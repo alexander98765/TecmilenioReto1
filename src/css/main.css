@@ -38,6 +38,22 @@
     font-size:25px;
 }
 
+.lastNameDecoration{
+    color:#EA8416;
+}
+
+.breadcrumbcontainer{
+    /*background-color:#4453AC;*/
+    background-color: #313865;
+    margin:0px;
+    padding-left: 3rem;
+}
+
+.breadcrumbItem{
+    color:#FFF;
+    font-weight: bold;;
+}
+
 @media screen and (max-width: 1020px) {
     .brandTitle{
         font-size: 40px;
@@ -79,6 +95,7 @@
     font-weight: bold;
     border: 2px solid #D6B440;
     margin-bottom: 5px;
+    margin-left:5px;
 }
 
 .bannerButton:hover{
@@ -105,6 +122,20 @@
 
 .bannerDiscountTag span{
     font-size:0.8rem;
+}
+
+.bannerDiscountValue{
+    font-size:1.2rem !important; 
+    color:#FF9700;
+}
+
+@media screen and (max-width: 275px) {
+    .bannerDiscountTag span{
+        font-size:0.6rem;
+    }
+    .limitedLabel{
+        font-size:0.7rem;
+    }
 }
 
 @media screen and (max-width: 570px) {
@@ -163,7 +194,7 @@
     background-color: #4d3269;
 }
 
-#contenedorSobreMi{    
+#aboutMeContainer{    
     color: #FFF;
     padding:20px;
     margin-bottom: 6rem;
@@ -200,14 +231,20 @@
     font-weight: bold;;
 }
 
-@media screen and (min-width: 775px) and (max-width: 1150px) {
+@media screen and (min-width: 991px) and (max-width: 1199px) {
     .aboutmePicture{
-        width:190px;
+        width:200px;
     }
 }
-@media screen and (max-width: 774px) {
+@media screen and (max-width: 991px) {
     .aboutmePicture{
         width:170px;
+    }
+}
+@media screen and (max-width: 575px) {
+    #aboutMeContainer{
+        margin-left:10px;
+        margin-right:10px;
     }
 }
 
@@ -277,12 +314,9 @@ color: black;
 /* Estilos de la parte trasera */
 .flip-card-back {
 background-color: transparent;
-/*color: white;*/
 text-align:justify;
 transform: rotateY(180deg);
 }
-
-.cardContainer2
 
 .cardContainer:hover{
     /*width: 18rem;*/
@@ -307,8 +341,111 @@ transform: rotateY(180deg);
 .projectButtonContainer{
     width:100%;
 }
+
+.projectGeneralText{
+    text-align: justify;
+    font-size:17px;
+}
+
+@media screen and (min-width: 767px) and (max-width: 999px) {
+    .projectGeneralText{
+        font-size:15px;
+    }
+}
+@media screen and (max-width: 766px) {
+    .projectGeneralText{
+        font-size:18px;
+    }
+}
 /*******************************/
 
+/* Estilos para la seccion detalles de proyectos*/
+
+.projectDetailContainer{
+    margin-bottom: 6rem;
+    margin-top: 3rem;
+}
+
+.projectDetailText{
+    padding-top:10px;
+    padding-bottom: 10px;
+    text-align: justify;
+    font-size:20px;
+}
+
+.projectDetailsGoals{
+    font-size:19px;
+}
+
+.projectGoalIcon{
+    color:#FAA300; 
+    font-size:25px;
+}
+
+.projectDetailImage{
+    width: 550px;
+}
+
+.goal1Container{
+    padding:5px;
+    border-top:3px solid #2ABD1C;
+    margin-top: 15px;
+}
+
+.goal1Icon{
+    font-size:25px;
+    text-align:center;
+    color:#2ABD1C;
+    margin-top:20px;
+}
+
+.goal2Container{
+    padding:5px;
+    border-top:3px solid #DA41D5;
+    margin-top: 15px;
+}
+
+.goal2Icon{
+    font-size:25px;
+    text-align:center;
+    color:#DA41D5;
+    margin-top:20px;
+}
+.goal3Container{
+    padding:5px;
+    border-top:3px solid #1BBCE8;
+    margin-top: 15px;
+}
+
+.goal3Icon{
+    font-size:25px;
+    text-align:center;
+    color:#1BBCE8;
+    margin-top:20px;
+}
+
+@media screen and (min-width: 427px) and (max-width: 767px){
+    .goalParent{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .goal1Container, .goal2Container, .goal3Container{
+        width:60%;
+    }
+}
+
+@media screen and (min-width: 406px) and (max-width: 511px){
+    .projectDetailImage{
+        width: 450px;
+    }
+}
+@media screen and (max-width: 405px){
+    .projectDetailImage{
+        width: 250px;
+    }
+}
+/*******************************/
 
 /* Estilos para la sección testimonios */
 .testimonios{
@@ -365,17 +502,6 @@ transform: rotateY(180deg);
     font-weight: bold;
 }
 
-@media screen and (max-width: 800px){
-    .testimonioImage{
-        height: 120px;
-        width:120px;
-    }
-    
-    .testimonioText{
-        font-size: 18px;
-    }
-}
-
 .testimonioPicture{
     width:120px;
     border-radius: 50%;
@@ -419,6 +545,63 @@ transform: rotateY(180deg);
 .testimoniosHeader{
     height:50%;
 }
+
+@media screen and (max-width: 405px){
+    .testimonioImage{
+        height: 80px;
+        width:80px;
+        margin-top: -4rem;
+    }
+    .testimoniosHeader div .titulo2{
+        font-size: 16px;
+    }
+    .testimonyText{
+        font-size:13px;
+    }
+    .testimonioName{
+        font-size: 18px;
+    }
+    .testimonioRol{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 406px) and (max-width: 511px){
+    .testimoniosHeader{
+        height:27%;
+    }
+    .testimoniosHeader div .titulo2{
+        font-size: 18px;
+    }
+    .testimonyText{
+        font-size:14px;
+    }
+    .testimonioImage{
+        height: 100px;
+        width:100px;
+    }
+    .testimonioName{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 512px) and (max-width: 992px){
+    .testimoniosHeader{
+        height:30%;
+    }
+    .testimoniosHeader div .titulo2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 512px) and (max-width: 800px){
+    .testimonioImage{
+        height: 120px;
+        width:120px;
+    }
+    
+    .testimonioText{
+        font-size: 18px;
+    }
+}
 /*******************************/
 
 /* Estilos para sección de curso */
@@ -429,11 +612,13 @@ transform: rotateY(180deg);
 
 .ratingStar{
     color:orange;
+    font-size:19px;
 }
 
 .coursesPrices{
     border: 1px solid #dfdfdf;
     margin-bottom: 10px;
+    border-radius: 5px 5px 0px 0px;
 }
 
 .pricingHeader{
@@ -481,6 +666,7 @@ transform: rotateY(180deg);
 
 .courseDetailTitle{
     font-weight:bold;
+    color: #4d3269;
 }
 
 .courseDetailsListOrientado i{
@@ -488,7 +674,11 @@ transform: rotateY(180deg);
 }
 
 .courseDetailsListReq i{
-    color: #00A2FF;
+    color: #198754;
+}
+
+.courseDetailsListLockedIcon{
+    color:#198754;
 }
 
 .cursoModuloTitle{
@@ -508,12 +698,138 @@ transform: rotateY(180deg);
     text-decoration: underline;
     cursor: pointer;
 }
+.accordion{
+    --bs-accordion-active-bg: #E6E8F5;
+}
+/*********************************/
+
+/* Estilos para la sección de opiniones del curso*/
+
+.commentsDetailContainer{
+    margin-bottom:6rem;
+}
+.studentsOpinionsTitle{
+    color:#1B336E;
+    font-weight:bold;
+    font-size:18px
+}
+
+.mainRating{                                                                                                                             
+    font-size:23px;
+    font-weight: bold;
+    color:#0083EA;
+    margin-left: 10px;
+}
+
+.fiveStarRating{
+    width: 95%
+}
+.fourStarRating{
+    width: 85%
+}
+.threeStarRating{
+    width: 65%
+}
+.twoStarRating{
+    width: 0%
+}
+.oneStarRating{
+    width: 0%
+}
+
+.progress{
+    color:#7F2EBB;
+}
+
+.ratingbar{
+    height: 5px;
+    width:60%;
+    margin-top:10px;
+}
+
+.studentPicture{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;    
+    float:right;
+}
+
+.studentPicture img{
+    border:2px solid #0087FF;
+    border-radius: 50%;
+}
+
+.ratingStarDetail{
+    color: orange;
+    font-size: 12px;
+}
+
+.studentName{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.publishingDate{
+    font-size:14px;
+}
+
+.studentOpinion{
+    text-align:justify;
+}
+
+.mainRatingStarContainer{
+    padding-left:11%;
+}
+
+.opinionContainer{
+    padding-top:10px !important;
+}
+
+@media screen and (min-width: 768px) and (max-width: 942px){
+    .courseRatingLabel{
+        font-size: 13px;
+    }
+    .ratingbar{
+        font-size: 13px;        
+        width:40%;                    
+    }    
+}
+@media screen and (min-width: 943px) and (max-width: 1045px){
+    .courseRatingLabel{
+        font-size: 14px;
+    }    
+}
+@media screen and (min-width: 768px) and (max-width: 862px){
+    .mainRatingStarContainer i{
+        font-size: 15px;
+    }    
+    .mainRating{
+        font-size: 20px;
+    }
+    .mainRatingStarContainer{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 767px){
+    .studentPicture{
+        float:left;
+    }   
+    .studentsOpinionsTitle{
+        padding-top: 20px;
+    } 
+}
 /*********************************/
 
 /* Estilos para la seccion de plantillas*/
 
 #contenedorPlantillas {    
     padding:15px;
+}
+
+.cardInner{
+    border: 1px solid #d2d2d2;
+    padding:10px;
 }
 /*********************************/
 
@@ -567,6 +883,39 @@ transform: rotateY(180deg);
 .btnPlantilla1:hover::after {
     content: "Contáctame";
 }
+
+.invitationLegend{
+    padding-top:15px;
+    font-weight:bold; 
+    text-align:center;
+    color:#673D92
+}
+
+@media screen and (max-width: 767px){
+    .dvBtnContactContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 355px){
+    .formControl{
+        width:80%;        
+    }
+}
+
+@media screen and (max-width: 359px){
+    .contactInfoList, .contactText{
+        font-size: 13px;       
+    }
+    .socialNetworksIcons a{
+        margin:1px !important;
+    }
+    .inputContactContainer, .btnContacto{
+        font-size:0.8rem;
+    }
+}
 /*********************************/
 
 /*Estilos para la sección de footer*/
@@ -609,7 +958,7 @@ body{
 }
 
 .titulo1{
-    color:#7672D1;
+    color:#4d3269;
     font-weight: bold;
     font-size: 2rem;
 }
@@ -655,6 +1004,18 @@ body{
     margin-top: 5px;
 }
 
+.componentSep10{
+    margin-top: 10px;
+}
+
+.paddingLeft30{
+    padding-left: 30px;
+}
+
+.padding2{
+    padding:2px;
+}
+
 .btnOutlineGeneral{
     border-radius: 10px;
     color: #4d3269;
@@ -682,6 +1043,10 @@ body{
     font-weight: bold;
     color:#4d3269;
     border:2px solid #4d3269;
+}
+
+.bold{
+    font-weight:bold;
 }
 
 .socialNetworksIcons a{
@@ -729,7 +1094,46 @@ body{
     padding:0;
 }
 
-.courseDetailsListOrientado, .courseDetailsListReq, .contactInfoList, .aboutmeList, .bannerList{
+.noMargin{
+    margin:0px;
+}
+
+.noBorder{
+    border:0px;
+}
+
+.righSpace10px{
+    margin-right:10px;
+}
+
+.inlineBlock{
+    display:inline-block
+}
+
+.innerSep20{
+    padding-top:20px;
+}
+
+.courseDetailsListOrientado, .courseDetailsListReq, .contactInfoList, .aboutmeList, .bannerList, .projectDetailsGoals{
     list-style-type: none;
 }
+/*******************************/
+
+/*Estilos para pagina no encontrada*/
+
+.pageNotFound img{
+    width: 650px;
+    margin-bottom: 40px;
+}
+@media screen and (min-width: 493px) and (max-width: 687px){
+    .pageNotFound img{
+        width: 420px;
+    }   
+}
+@media screen and (max-width: 482px){
+    .pageNotFound img{
+        width: 240px;
+    }   
+}
+
 /*******************************/
