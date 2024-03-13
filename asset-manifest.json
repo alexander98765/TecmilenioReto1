@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/TecmilenioReto1/static/css/main.3d1a05e3.css",
-    "main.js": "/TecmilenioReto1/static/js/main.1dbe5a6a.js",
+    "main.css": "/TecmilenioReto1/static/css/main.fac22643.css",
+    "main.js": "/TecmilenioReto1/static/js/main.5d7d3457.js",
     "static/js/453.3183621d.chunk.js": "/TecmilenioReto1/static/js/453.3183621d.chunk.js",
     "static/media/aboutme.svg": "/TecmilenioReto1/static/media/aboutme.1bfbabbced38368a6feddb2c16b32459.svg",
     "static/media/project4.svg": "/TecmilenioReto1/static/media/project4.362361c0647c173e639ca90f209bdc8a.svg",
     "static/media/project3.svg": "/TecmilenioReto1/static/media/project3.1fc1fbb440f28faf61f2ea54b4df6f05.svg",
+    "static/media/cliente2.svg": "/TecmilenioReto1/static/media/cliente2.b6b8d16bba09b7953e040c1657e8a84d.svg",
     "static/media/banner.svg": "/TecmilenioReto1/static/media/banner.01c647037adb83a5efeefa2b75e24334.svg",
+    "static/media/cliente3.svg": "/TecmilenioReto1/static/media/cliente3.6416fa62e608f54ea8cb512f8a83140d.svg",
     "static/media/cliente1.svg": "/TecmilenioReto1/static/media/cliente1.4f87997127cf2e6493e102135552f087.svg",
     "static/media/project4Detail.svg": "/TecmilenioReto1/static/media/project4Detail.94c8db3d66097f8eef095752dad34292.svg",
     "static/media/project1.svg": "/TecmilenioReto1/static/media/project1.2bd5907439d6ecbf8294186a8cd7d72e.svg",
@@ -22,12 +24,12 @@
     "static/media/project3Detail.svg": "/TecmilenioReto1/static/media/project3Detail.be8e5e53072a12517f23eb7125a91a40.svg",
     "static/media/opinionDetail2.svg": "/TecmilenioReto1/static/media/opinionDetail2.1eb60d594970c1eca385c05a0e8ff958.svg",
     "index.html": "/TecmilenioReto1/index.html",
-    "main.3d1a05e3.css.map": "/TecmilenioReto1/static/css/main.3d1a05e3.css.map",
-    "main.1dbe5a6a.js.map": "/TecmilenioReto1/static/js/main.1dbe5a6a.js.map",
+    "main.fac22643.css.map": "/TecmilenioReto1/static/css/main.fac22643.css.map",
+    "main.5d7d3457.js.map": "/TecmilenioReto1/static/js/main.5d7d3457.js.map",
     "453.3183621d.chunk.js.map": "/TecmilenioReto1/static/js/453.3183621d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d1a05e3.css",
-    "static/js/main.1dbe5a6a.js"
+    "static/css/main.fac22643.css",
+    "static/js/main.5d7d3457.js"
   ]
 }
