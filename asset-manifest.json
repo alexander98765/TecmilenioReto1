@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TecmilenioReto1/static/css/main.5479ba26.css",
-    "main.js": "/TecmilenioReto1/static/js/main.58798cbd.js",
+    "main.css": "/TecmilenioReto1/static/css/main.a306338e.css",
+    "main.js": "/TecmilenioReto1/static/js/main.bb8c9417.js",
     "static/js/453.3183621d.chunk.js": "/TecmilenioReto1/static/js/453.3183621d.chunk.js",
     "static/media/aboutme.svg": "/TecmilenioReto1/static/media/aboutme.1bfbabbced38368a6feddb2c16b32459.svg",
     "static/media/project4.svg": "/TecmilenioReto1/static/media/project4.362361c0647c173e639ca90f209bdc8a.svg",
@@ -24,12 +24,12 @@
     "static/media/project3Detail.svg": "/TecmilenioReto1/static/media/project3Detail.be8e5e53072a12517f23eb7125a91a40.svg",
     "static/media/opinionDetail2.svg": "/TecmilenioReto1/static/media/opinionDetail2.1eb60d594970c1eca385c05a0e8ff958.svg",
     "index.html": "/TecmilenioReto1/index.html",
-    "main.5479ba26.css.map": "/TecmilenioReto1/static/css/main.5479ba26.css.map",
-    "main.58798cbd.js.map": "/TecmilenioReto1/static/js/main.58798cbd.js.map",
+    "main.a306338e.css.map": "/TecmilenioReto1/static/css/main.a306338e.css.map",
+    "main.bb8c9417.js.map": "/TecmilenioReto1/static/js/main.bb8c9417.js.map",
     "453.3183621d.chunk.js.map": "/TecmilenioReto1/static/js/453.3183621d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5479ba26.css",
-    "static/js/main.58798cbd.js"
+    "static/css/main.a306338e.css",
+    "static/js/main.bb8c9417.js"
   ]
 }
