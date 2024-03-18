@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TecmilenioReto1/static/css/main.0ddac23e.css",
-    "main.js": "/TecmilenioReto1/static/js/main.ec27ac3c.js",
+    "main.css": "/TecmilenioReto1/static/css/main.5f3e7d41.css",
+    "main.js": "/TecmilenioReto1/static/js/main.52b96e25.js",
     "static/js/453.3183621d.chunk.js": "/TecmilenioReto1/static/js/453.3183621d.chunk.js",
     "static/media/fa-solid-900.ttf": "/TecmilenioReto1/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
     "static/media/project1.svg": "/TecmilenioReto1/static/media/project1.2bd5907439d6ecbf8294186a8cd7d72e.svg",
@@ -18,8 +18,9 @@
     "static/media/opinionDetail1.svg": "/TecmilenioReto1/static/media/opinionDetail1.4b4d6e1c9c4445357e676c15985e4f0c.svg",
     "static/media/opinionDetail5.svg": "/TecmilenioReto1/static/media/opinionDetail5.e57e6d8e8ad0bb810206732106b23b24.svg",
     "static/media/fa-regular-400.ttf": "/TecmilenioReto1/static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
+    "static/media/cliente3.svg": "/TecmilenioReto1/static/media/cliente3.9e6c2e84c3d282eb4e665adcb8127153.svg",
     "static/media/pageNotFound.svg": "/TecmilenioReto1/static/media/pageNotFound.ebbf322726f1f119c70b999a8a2897e2.svg",
-    "static/media/cliente2A.svg": "/TecmilenioReto1/static/media/cliente2A.76d816a9517b3da2c2b948ae59535a32.svg",
+    "static/media/cliente2.svg": "/TecmilenioReto1/static/media/cliente2.76d816a9517b3da2c2b948ae59535a32.svg",
     "static/media/project4Detail.svg": "/TecmilenioReto1/static/media/project4Detail.1f5d0c3dfed7a714d46c04aeafac5776.svg",
     "static/media/project1Detail.svg": "/TecmilenioReto1/static/media/project1Detail.187e2b146e94356269e85764fb4b0b1c.svg",
     "static/media/opinionDetail6.svg": "/TecmilenioReto1/static/media/opinionDetail6.d40e4cd2ba7d4084aab638a352326974.svg",
@@ -27,17 +28,18 @@
     "static/media/project4.svg": "/TecmilenioReto1/static/media/project4.0312b1d0a70697e34b8e8cfd5ed4bf5b.svg",
     "static/media/fa-regular-400.woff2": "/TecmilenioReto1/static/media/fa-regular-400.e931bc0d14f5bbb1da22.woff2",
     "static/media/opinionDetail2.svg": "/TecmilenioReto1/static/media/opinionDetail2.1eb60d594970c1eca385c05a0e8ff958.svg",
-    "static/media/cliente1A.svg": "/TecmilenioReto1/static/media/cliente1A.e43710f196e0db7ce44962718a2b724a.svg",
+    "static/media/cliente1.svg": "/TecmilenioReto1/static/media/cliente1.e43710f196e0db7ce44962718a2b724a.svg",
     "static/media/quicksand-v31-latin-regular.woff2": "/TecmilenioReto1/static/media/quicksand-v31-latin-regular.c528d5140938c55dd062.woff2",
+    "static/media/cliente4.svg": "/TecmilenioReto1/static/media/cliente4.82136da45f05b61255d860c2717eb8fa.svg",
     "static/media/fa-v4compatibility.ttf": "/TecmilenioReto1/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
     "static/media/fa-v4compatibility.woff2": "/TecmilenioReto1/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/TecmilenioReto1/index.html",
-    "main.0ddac23e.css.map": "/TecmilenioReto1/static/css/main.0ddac23e.css.map",
-    "main.ec27ac3c.js.map": "/TecmilenioReto1/static/js/main.ec27ac3c.js.map",
+    "main.5f3e7d41.css.map": "/TecmilenioReto1/static/css/main.5f3e7d41.css.map",
+    "main.52b96e25.js.map": "/TecmilenioReto1/static/js/main.52b96e25.js.map",
     "453.3183621d.chunk.js.map": "/TecmilenioReto1/static/js/453.3183621d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ddac23e.css",
-    "static/js/main.ec27ac3c.js"
+    "static/css/main.5f3e7d41.css",
+    "static/js/main.52b96e25.js"
   ]
 }
