@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/TecmilenioReto1/static/css/main.5fd9e74c.css",
+    "main.css": "/TecmilenioReto1/static/css/main.b9805662.css",
     "main.js": "/TecmilenioReto1/static/js/main.b6b55f82.js",
     "static/js/453.3183621d.chunk.js": "/TecmilenioReto1/static/js/453.3183621d.chunk.js",
     "static/media/fa-solid-900.ttf": "/TecmilenioReto1/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
@@ -34,12 +34,12 @@
     "static/media/fa-v4compatibility.ttf": "/TecmilenioReto1/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
     "static/media/fa-v4compatibility.woff2": "/TecmilenioReto1/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/TecmilenioReto1/index.html",
-    "main.5fd9e74c.css.map": "/TecmilenioReto1/static/css/main.5fd9e74c.css.map",
+    "main.b9805662.css.map": "/TecmilenioReto1/static/css/main.b9805662.css.map",
     "main.b6b55f82.js.map": "/TecmilenioReto1/static/js/main.b6b55f82.js.map",
     "453.3183621d.chunk.js.map": "/TecmilenioReto1/static/js/453.3183621d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5fd9e74c.css",
+    "static/css/main.b9805662.css",
     "static/js/main.b6b55f82.js"
   ]
 }
